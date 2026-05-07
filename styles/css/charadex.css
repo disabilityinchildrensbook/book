@@ -541,6 +541,26 @@ a:active {
   border-radius: var(--cd-border-radius) !important;
 }
 
+
+.gallerycardhighlight {
+    background-color: var(--cd-card-background-color) !important;
+  border-width: var(--cd-card-border-width) !important;
+  border-style: var(--cd-card-border-style) !important;
+  border-color: var(--cd-card-border-color) !important;
+  border-radius: var(--cd-border-radius) !important;
+  transition: 0.45s ease all
+  
+}
+
+.gallerycardhighlight:hover{
+  background-color: var(--cd-card-background-color) !important;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--cd-body-text-color) !important;
+  border-radius: var(--cd-border-radius) !important;
+}
+
+
 .card-header {
   background-color: var(--cd-card-header-background-color) !important;
   border-bottom-color: var(--cd-card-border-color) !important;

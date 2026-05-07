@@ -44,9 +44,9 @@ charadex.sheet = {
 
 
   options: {
-    disabilitytype:['ND', 'Physical Disability', 'Speech-language Disorder',  'Chronic Illness'],
+    disabilitytype:['Physical Disability', 'ND','Speech-language Disorder',  'Chronic Illness'],
     gender: ['Male', 'Female', 'Diverse'],
-    ethnicity: ['White', 'Black', 'Indigenous', 'Middle Eastern / West Asian', 'East Asian', 'Latine','Mixed/Multiracial', 'South Asian', 'Other / Unspecified'],
+    ethnicity: ['White', 'Black', 'Indigenous', 'Middle Eastern / West Asian', 'East Asian', 'Latine','Multiracial', 'South Asian', 'Other'],
     perspective: ['1st Person', '2nd Person','3rd Person'],
     species: ["A/autism", "AAC", "ADHD", "Alopecia", "Anxiety", "Apraxia", "Blind/low vision", "Cancer", "Cerebral palsy", "Physical Disability", "Deafness","Depression","Down syndrome", "Learning Disability", "Multiple sclerosis", "Stuttering","Tourette syndrome", "Trauma"],
      specifictype: ["A/autism", "AAC", "ADHD", "Alopecia", "Anxiety", "Apraxia", "Blind/low vision", "Cancer", "Cerebral palsy", "Physical Disability", "Deafness","Depression","Down syndrome", "Learning Disability", "Multiple sclerosis", "Stuttering","Tourette syndrome", "Trauma"],
