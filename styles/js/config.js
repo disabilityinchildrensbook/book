@@ -15,7 +15,7 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "Inclusive Book Archive",
+  title: "Disability in Children's Books",
 url: "https://disabilityinchildrensbook.github.io/book/",
   description: `An archive of inclusive children's books.`
 }
