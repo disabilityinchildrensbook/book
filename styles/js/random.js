@@ -1,7 +1,7 @@
 const ranges = {
-  ci: 5,
-  nd: 40,
-  pd: 30,
+  ci: 9,
+  nd: 49,
+  pd: 34,
   sld: 10
 };
 
