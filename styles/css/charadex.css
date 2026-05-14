@@ -225,9 +225,19 @@ body {
   --cd-input-border-color: var(--cd-border-color);
   --cd-input-border-color-hover: var(--cd-primary-color);
   --cd-input-border-radius: var(--cd-border-radius);
-  
+
+
+
+ --cd-button-text-color-random:#ffffff;
+--cd-button-background-color-random:#4aa5be;
+
+
+--cd-button-text-color-hover-random:#e3ebec;
+--cd-button-background-color-hover-random:#358ba2;
 
 }
+  
+
 
 
 body.dark {
@@ -610,6 +620,27 @@ a.badge.badge-primary:active {
   background-color: var(--cd-button-background-color-hover) !important;
   box-shadow: none !important;
 }
+
+
+.btn.btn-random,
+.badge.badge-random {
+  color: var(--cd-button-text-color-random) !important;
+  background-color: var(--cd-button-background-color-random) !important;
+  border-color: var(--cd-button-border-color) !important;
+}
+
+.btn.btn-random:hover,
+.btn.btn-random:focus,
+.btn.btn-random:active,
+a.badge.badge-random:hover,
+a.badge.badge-random:focus,
+a.badge.badge-random:active {
+  color: var(--cd-button-text-color-hover-random) !important;
+  border-color: var(--cd-button-border-color-hover) !important;
+  background-color: var(--cd-button-background-color-hover-random) !important;
+  box-shadow: none !important;
+}
+
 
 /* ============================================================= */
 /* Input
