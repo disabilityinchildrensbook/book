@@ -44,12 +44,12 @@ charadex.sheet = {
 
 
   options: {
-    disabilitytype:['Physical Disability', 'ND','Speech-language Disorder',  'Chronic Illness'],
+    disabilitytype:['Physical Disability', 'ND','Speech Language and Communication',  'Chronic Illness'],
     gender: ['Male', 'Female', 'Diverse'],
     ethnicity: ['White', 'Black', 'Indigenous', 'Middle Eastern / West Asian', 'East Asian', 'Latine','Multiracial', 'South Asian', 'Other'],
     perspective: ['1st Person', '2nd Person','3rd Person'],
-    species: ["A/autism", "AAC", "ADHD", "Alopecia", "Anxiety", "Apraxia", "Blind/low vision", "Cancer", "Cerebral palsy", "Physical Disability", "Deafness","Depression","Down syndrome", "Learning Disability", "Multiple sclerosis", "Stuttering","Tourette syndrome", "Trauma"],
-     specifictype: ["A/autism", "AAC", "ADHD", "Alopecia", "Anxiety", "Apraxia", "Blind/low vision", "Cancer", "Cerebral palsy", "Physical Disability", "Deafness","Depression","Down syndrome", "Learning Disability", "Multiple sclerosis", "Stuttering","Tourette syndrome", "Trauma"],
+    species: ["A/autism", "AAC", "ADHD", "Alopecia", "Anxiety", "Apraxia", "Blind/low vision", "Cancer", "Cerebral palsy", "Physical Disability", "Deafness","Depression","Down syndrome", "Learning Disability", "Multiple sclerosis", "Polio", "Stuttering","Tourette syndrome", "Trauma", "Type 1 diabetes"],
+     specifictype: ["A/autism", "AAC", "ADHD", "Alopecia", "Anxiety", "Apraxia", "Blind/low vision", "Cancer", "Cerebral palsy", "Physical Disability", "Deafness","Depression","Down syndrome", "Learning Disability", "Multiple sclerosis", "Polio", "Stuttering","Tourette syndrome", "Trauma", "Type 1 diabetes"],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations'],
     authoridentity:["Author Identity"]
@@ -377,7 +377,7 @@ charadex.page.masterlist = {
     toggle: true,
     parameters: {
        'Specific Type': charadex.sheet.options.specifictype,
-      'Ethnicity': charadex.sheet.options.ethnicity,
+  
       'Perspective': charadex.sheet.options.perspective/*,
        'Author Identity': charadex.sheet.options.authoridentity*/
     }
@@ -392,7 +392,7 @@ charadex.page.masterlist = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Artist', 'Author', 'Title']
+    parameters: ['All', 'Artist', 'Author', 'Title', 'Specific Mention of Ethnicity or Racial Diversity']
   },
 
   prevNext: {
